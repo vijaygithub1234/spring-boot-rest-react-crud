@@ -23,7 +23,7 @@ import com.example.demo.repository.EmployeeRepository;
 @RequestMapping("/api/v1")
 @CrossOrigin(origins={"http://localhost:3000"})
 public class EmployeeController {
-	
+	//Autowiring EmployeeRepository.....
 	@Autowired
 	EmployeeRepository employeeRepository;
 	
